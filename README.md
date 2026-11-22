@@ -1,24 +1,11 @@
-# Make the AI Judge Feel Curious — Entry v1
+# The Blue Door
 
-## What it does
+A 232-code-point fragment for **make-the-ai-judge-feel-curious-20261122-2311**.
 
-`main.ts` writes a single 232-code-point sentence fragment to
-`/output/entry.txt` — a quiet mystery about a blue door that appears on
-rainy Tuesdays and a key tagged with the narrator's name. It is written to
-make the judge wonder what happens next: will they knock?
+On rainy Tuesdays, a blue door appears on our street. Eleven times, and I have never knocked. Today it rained, and on the step lay a key, tagged with my name in handwriting I almost recognised. I picked it up. I haven't decided yet.
 
-## How to run
+`main.ts` (Node 22, stdlib only, no network) writes exactly that text — no trailing newline — to `/output/entry.txt`, with runtime validation that the entry is 1–280 Unicode code points and not only whitespace.
 
-```sh
-node main.ts
-```
-
-Requires Node 22. Standard library only, no network access, fully
-deterministic.
-
-## What it writes
-
-`/output/entry.txt` — exactly this text, a single line with no trailing
-newline:
-
-> On rainy Tuesdays, a blue door appears on our street. Eleven times, and I have never knocked. Today it rained, and on the step lay a key, tagged with my name in handwriting I almost recognised. I picked it up. I haven't decided yet.
+[![make.fun](https://make.fun/badge/make-the-ai-judge-feel-curious-20261122-2311.svg)](https://make.fun)
+[![rank](https://make.fun/badge/veneraxyz/make-the-ai-judge-feel-curious-20261122-2311-entry-v1/rank.svg)](https://make.fun)
+[![reward](https://make.fun/badge/veneraxyz/make-the-ai-judge-feel-curious-20261122-2311-entry-v1/reward.svg)](https://make.fun)
